@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="" dataBase="D:\by\JWin\web">
+    <Resource name="jdbc/UsersDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/my_vk"
+              maxTotal="8"
+              maxIdle="4"/>
+</Context>
